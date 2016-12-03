@@ -1,0 +1,9 @@
+.idea/*
+show/.idea/*
+show/resources/public/js/compiled/*
+show/show.iml
+show/target/stale/*
+show/dev/*
+show/resources/public/fonts/Ubuntu-Regular.ttf
+
+show/resources/public/css/pure.css
