@@ -1,6 +1,6 @@
 (defproject show "0.1.0-SNAPSHOT"
   :description "re-frame Slideshow for Clojure Conj 2016"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/smahood/re-frame-conj-2016"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
 
@@ -52,14 +52,14 @@
                      :source-paths ["src"]
                      :stylesheet   show.styles/screen
                      :compiler     {:output-to     "resources/public/css/screen.css"
-                                    :pretty-print? true
-                                    }}]}
+                                    :pretty-print? true}}]}
+
   :profiles {:dev {:dependencies [[binaryage/devtools "0.8.3"]
                                   [figwheel-sidecar "0.5.8"]
                                   [com.cemerick/piggieback "0.2.1"]]
                    :source-paths ["src"]
                    :repl-options {
                                   :init             (set! *print-length* 50)
-                                  :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}}
+                                  :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
 
-  )
+
